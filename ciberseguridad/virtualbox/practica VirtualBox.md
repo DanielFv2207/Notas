@@ -9,4 +9,5 @@ Para la instalación de virtualBox en el PC fue muy sencillo, simplemente lo que
 Para instalar Ubuntu en nuestro VirtualBox lo primero es descargar el archivo ISO de Ubuntu desde su página oficial, después, abro VirtualBox y selecciono en la parte de "nueva", coloco el nombre de Ubuntu, selecciono la imagen ISO que había instalado previamente,
 pongo cuanta memoria, procesadores y almacenamiento quiero dedicarle a este sistema e inicio con la instalación, este proceso se demora un rato dependiendo de los recursos que tenga cada sistema.
 
+<img width="638" height="461" alt="image" src="https://github.com/user-attachments/assets/72eb3838-5f24-4d54-8c40-bf4056b6f71c" />
 
