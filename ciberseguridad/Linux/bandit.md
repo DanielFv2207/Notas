@@ -56,6 +56,39 @@ Primero lo que hago es meterme a la carpeta inhere y haciendo uso del comando *f
 
 La contraseña para pasar al nivel 5 es: xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 
+## Nivel 5
+
+Este nivel me dice que la contraseña para pasar al siguiente se encuentra en un archivo el cual solo un humano puede leerlo dentro de la carpeta llamada *inhere* lo que yo hice para resolverlo es primero ver el contenido que había en la carpeta inhere usando el comando find y después con **cat** busqué archivo por archivo cual era el que contenía la contraseña que se puede leer solo por una persona.
+
+<img width="430" height="356" alt="image" src="https://github.com/user-attachments/assets/adc73282-a521-4248-9261-2a93658b78dd" />
+
+La contraseña para pasar al siguiente nivel es: 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+
+## Nivel 6
+
+Para este nivel me dice que la contraseña se encuentra en algún lugar en la carpeta inhere y tiene las siguientes propiedades: 
+<br>
+
+human-readable <br>
+1033 bytes in size <br>
+not executable <br>
+
+Para resolver esto la forma más fácil es buscar la carpeta que tenga el tamaño exacto de 1033 bytes haciendo uso de find -size, el punto después del find es para que busque en todos los archivos de la carpeta actual.
+
+<img width="320" height="92" alt="image" src="https://github.com/user-attachments/assets/bfba8dea-2888-4d7f-8e74-a9283344be0c" />
+
+La contraseña para pasar al siguiente nivel es: pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+
+## Nivel 7
+
+Este nivel me dice que la contraseña se encuentra almacenada en algún lugar del servidor con las siguientes propiedades: 
+
+owned by user bandit7 <br>
+owned by group bandit6 <br>
+33 bytes in size <br>
+
+
+
 
 
 
