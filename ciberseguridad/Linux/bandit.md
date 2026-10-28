@@ -107,6 +107,18 @@ La contraseña para pasar al siguiente nivel es: VR1ljMayciFxbnUokuQmJFw6QC9VKtu
 
 La contraseña para el siguiente nivel se encuentra en el archivo data.txt y es la única línea de texto que aparece una sola vez.
 
+Para resolver este nivel si fue un poco complicado ya que aprendí algunos comandos y conceptos que no sabía, el primero de ellos el el sort, que lo que hace es que organiza los datos de un archivo ya sea por orden alfabético, numérico al revés etc... lo necesité en este caso ya que las contraseñas que aparecían dentro del archivo se encontraban de una forma desorganizada. 
+
+El otro comando que investigué fue *uniq*, este comando sirve para filtrar, contar o eliminar líneas repetidas, en este caso tiene una opción que es el -u, que sirve para que solo muestre exclusivamente las líneas que aparecen una sola vez.
+
+También aprendí lo que es el piping en Linux que es básicamente como la forma de combinar dos o muchos más comandos dentro de una sola línea.
+
+<img width="189" height="58" alt="image" src="https://github.com/user-attachments/assets/1788fe53-0c57-4052-93a5-d99b02db670d" />
+
+La contraseña para pasar al siguiente nivel es: EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+
+## Nivel 10
+
 
 
 
