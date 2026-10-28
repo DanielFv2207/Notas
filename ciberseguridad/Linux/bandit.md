@@ -119,7 +119,15 @@ La contraseña para pasar al siguiente nivel es: EjmOSvuAu7sGAHqHVcBDPirRe9T03kx
 
 ## Nivel 10
 
+Este nivel me dice que la contraseña se encuentra en el archivo **data.txt** en una de las pocas cadenas legibles por humanos y que antes de ella se encuentran varios caracteres "="
 
+Para resolverlo uso el comando *strings*, lo que hace es encontrar cadenas de texto legibles por humanos dentro de un archivo, con este solo comando pude encontrar la contraseña pero si quisiera ser más específico lo que puedo hacer es combinarlo con un *grep* para buscar por los caracteres "=".
+
+<img width="203" height="47" alt="image" src="https://github.com/user-attachments/assets/792a06ae-5eaa-4bd7-9662-b87dce64e43a" />
+
+La contraseña para pasar al siguiente nivel es: B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
+
+## Nivel 11
 
 
 
