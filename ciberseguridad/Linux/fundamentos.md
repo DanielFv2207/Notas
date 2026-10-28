@@ -40,4 +40,25 @@ Algunos comandos básicos para la navegación, búsqueda de directorios etc.. qu
 
 <img width="400" height="60" alt="image" src="https://github.com/user-attachments/assets/cf7f96a6-1385-4cd1-a6cc-4cf91f21b1d6" />
 
+### Comandos para búsqueda de archivos
+
+Algunos comandos para buscar archivos o documentos, palabras etc.. específicos son:
+
+**sort:** este comando me ayuda a ordenar por orden alfabético por defecto lo que se encuentre dentro del archivo, tiene algunas opciones como son: -n que ordena de forma numérica, -r reinvierte el orden de la Z a la A, -u elimina las lineas duplicadas, -f ignora entre mayus y minus,, -R reordena de forma aleatoria, -o: Guarda el resultado directamente en un archivo de salida sin sobreescribir el archivo de entrada de forma peligrosa.
+
+<img width="182" height="56" alt="image" src="https://github.com/user-attachments/assets/67999186-16e5-449f-9de9-d0a71c795302" />
+
+**uniq:** Este comando sirve para filtrar, contar o eliminar líneas repetidas pero solo si se encuentran de una forma consecutiva, por este motivo normalmente se usa junto con el comando anterior *sort* para así primero organizar las líneas y después filtrarlas,
+
+**Opciones principales**
+
+-c (count): Cuenta cuántas veces se repite cada línea y añade el número al inicio. <br>
+-d (repeated): Muestra únicamente las líneas que están duplicadas (una sola vez por cada grupo repetido). <br>
+-u (unique): Muestra exclusivamente las líneas que aparecen una sola vez (sin duplicados). <br>
+-i (ignore-case): Ignora las diferencias entre mayúsculas y minúsculas al comparar. <br>
+-s N: Omite los primeros N caracteres de cada línea antes de comparar. <br>
+-w N: Compara únicamente los primeros N caracteres de cada línea. <br>
+
+
+
 
