@@ -87,8 +87,25 @@ owned by user bandit7 <br>
 owned by group bandit6 <br>
 33 bytes in size <br>
 
+En este caso lo que puedo hacer para buscarlo seria usar *find* con cada una de las propiedades que me dieron pero si lo hago solo con ese comando no me va a dejar ya que el sistema me mostrará mensajes de error ya que no cuento con permisos, por lo que ingresando al final *2>/dev/null* puedo ejecutar el comando y esconder estos mensajes de error.
 
+<img width="310" height="50" alt="image" src="https://github.com/user-attachments/assets/d5af4758-0dbb-4d8a-a754-3dc54a0b2a19" />
 
+La contraseña para pasar al siguiente nivel es: Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
+
+## Nivel 8
+
+Este nivel me dice que la contraseña se encuentra en un archivo llamado **data.txt** siguiente a la palabra "millionth"
+
+Para resolver este nivel puedo hace ruso del *grep* ya que me ayuda a encontrar palabras que se encuentren dentro de los archivos
+
+<img width="206" height="20" alt="image" src="https://github.com/user-attachments/assets/a7cd7392-3121-4c19-9d30-37e11ab66918" />
+
+La contraseña para pasar al siguiente nivel es: VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+
+## Nivel 9
+
+La contraseña para el siguiente nivel se encuentra en el archivo data.txt y es la única línea de texto que aparece una sola vez.
 
 
 
