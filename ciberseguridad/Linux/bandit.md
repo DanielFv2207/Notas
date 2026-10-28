@@ -129,11 +129,15 @@ La contraseña para pasar al siguiente nivel es: B0s2khmbT9u0geKuOoVGW3JZKhndE3B
 
 ## Nivel 11
 
+Este nivel me dice que la contraseña se encuentra en un archivo llamado **data.tx** el cual contiene datos codificados en base64.
 
+Para resolverlo, simplemente uso el comando base64 junto con -d o --decode para decodificar la constraseña
 
+<img width="289" height="123" alt="image" src="https://github.com/user-attachments/assets/4deafac4-65b1-4bc0-88cc-4777561e6138" />
 
+La contraseña para pasar al siguiente nivel es: pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
 
-
+## Nivel 12
 
 
 
