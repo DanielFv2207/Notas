@@ -139,5 +139,49 @@ La contraseña para pasar al siguiente nivel es: pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5R
 
 ## Nivel 12
 
+Este nivel me dice que la contraseña se encuentra en un archivo llamado **data.txt**, donde todas las letras minúsculas y mayúsculas se encuentran rotadas por 13 posiciones.
+
+Para resolver esto lo primero que hice fue investigar un poco sobre el ROT13 en Wikipedia y otras fuentes, le ROT13 es una clase de algoritmo que rota todas las letras del abecedario en 13 posiciones, desde la A-M se cambian por N-Z y así al revés, el ROT13 se puede decir que haciendo la misma rotación por dos veces se vuelve al estado original del abecedario.
+
+Para solucionar el nivel lo que hice fue hacer uso del comando tr, que me permite traducir carácter por carácter según yo se lo indique, por lo que le digo que cambie en mayus las letras de la A-M por N-Z y N-Z por A-M y así mismo con minúsculas.
+
+
+<img width="257" height="30" alt="image" src="https://github.com/user-attachments/assets/dc04b360-3453-4168-ac0b-5f267a6c3988" />
+
+La contraseña para pasar al siguiente nivel es: GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
+
+## Nivel 13
+
+Este nivel me dice que la contraseña se encuentra en un archivo llamado data.txt, pero este está volcado hexadecimal (hex dump), que es la representación visual del contenido de un archivo, programa o porción de memoria de un ordenador mostrado en código hexadecimal.
+
+También aparte me dice que el archivo ha sido comprimido repetidas veces.
+
+Para resolver este nivel lo primero que hago es crear una carpeta temporal en la cual voy a manejar todos los archivos los cuales voy a ir descomprimiendo. Dentro de esta carpeta voy a copiar el archivo data.txt.
+
+<img width="290" height="113" alt="image" src="https://github.com/user-attachments/assets/95e5b0c3-668b-40c9-a61e-3e598ac3d340" />
+
+Lo siguiente que voy a hacer es convertir el archivo que se encuentra en volcado hexadecimal a su formato original haciendo uso del comando *xxd -r* y el resultado lo voy a guardar dentro de otro archivo con el nombre *data*.
+
+<img width="424" height="140" alt="image" src="https://github.com/user-attachments/assets/e15f73fe-43a7-400f-93c3-8fef6d3bfe4d" />
+
+Ya una vez revertido el archivo a su formato original, lo que hago es descomprimir las veces que sean necesarias este archivo hasta encontrar la contraseña.
+
+Debo tener en cuenta para descomprimir el tipo de archivo que quiero cual sistema de compresión tiene ya que existen varios, por lo que cada vez que quiera descomprimirlo primero reviso usando *file nombre_archivo* el tipo de archivo que es y después lo descomprimo usando los comandos: *gzip*, *bip2*, *tar* 
+
+<img width="466" height="398" alt="image" src="https://github.com/user-attachments/assets/c32597af-a759-424f-8d0b-e5a070f0b89b" />
+
+La contraseña para pasar al siguiente nivel es: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
+
+## Nivel 14
+
+
+
+
+
+
+
+
+
+
 
 
