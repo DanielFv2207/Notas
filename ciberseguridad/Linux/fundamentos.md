@@ -59,6 +59,12 @@ Algunos comandos para buscar archivos o documentos, palabras etc.. específicos 
 -s N: Omite los primeros N caracteres de cada línea antes de comparar. <br>
 -w N: Compara únicamente los primeros N caracteres de cada línea. <br>
 
+**tr:** sirve para traducir, eliminar y comprimir caracteres, es una utilidad de línea de comandos que lee texto desde la entrada estándar, realiza transformaciones carácter por carácter y escribe el resultado en la salida estándar.
+
+*Sintaxis:* tr [opciones] conjunto1 [conjunto2]
+
+
+
 
 
 
